@@ -3,12 +3,24 @@
     padding: 0;
 }
 button{
-    padding: 10px;
-    border-radius: 30%;
+    /* Green */
+    border: none;
+    background-color: #e7e7e7;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0;
 } img {
-    width: 100px;
+    width: 200px;
     border-radius: 30px;
+    margin-left: 8% ;
 }
+  input {
+      padding: 15px 40px;
+  }
 .flex-box{
     display: flex;
     align-items: center;
@@ -17,7 +29,7 @@ button{
 }
 #startPage {
     z-index: 0;
-    background-color: #251749;
+    background-color: #579BB1;
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -26,7 +38,7 @@ button{
 
 #popDiv{
     z-index: 1;
-   background: black;
+   background: #E1D7C6;
     background-size: cover;
     backdrop-filter: blur(100);
     -webkit-backdrop-filter: blur(100);
@@ -35,6 +47,7 @@ button{
     position: absolute;
     top: 25%;
     display: none;
+    border-radius: 10px;
 }
 #screenid {
     align-items: center;
@@ -45,4 +58,8 @@ button{
 }
 .form{
     flex-direction: column;
+}
+.error
+{
+    border:1px solid red;
 }
